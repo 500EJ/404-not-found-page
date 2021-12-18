@@ -48,4 +48,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/500EJ)
+- GitHub [@500EJ](https://github.com/500EJ)
