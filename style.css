@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 14px;
+}
+
+main {
+    font-family: "Space Mono", monospace;
+    color: #333;
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    color: #BDBDBD;
+    text-align: center;
+}
+
+footer a {
+    font-weight: 700;
+    color: #BDBDBD;
+}
+
+#page-title {
+    font-family: Inconsolata, monospace;
+    font-size: 24px;
+}
+
+#back-button {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    margin-top: 50px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 23px;
+    cursor: pointer;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+#scarecrow {
+    width: 286.83px;
+    height: 238px;
+    margin-top: -1rem;
+    margin-bottom: 30px;
+}
+
+#bad-news {
+    font-size: 48px;
+}
+
+#description {
+    font-size: 18px;
+    color: #4F4F4F;
+    max-width: 382px;
+}
+
+@media (min-width: 637px) {
+    #page-title {
+        margin-top: 40px;
+        margin-left: 77px;
+    }
+
+    #bad-news {
+        font-size: 64px;
+    }
+
+    #description {
+        font-size: 24px;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+    }
+
+    figure {
+        display: flex;
+        align-items: center;
+    }
+
+    #scarecrow {
+        width: 539.22px;
+        height: 447.43px;
+    }
+}
